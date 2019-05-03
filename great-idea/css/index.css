@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+}
+.nav-link {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 1000px;
+}
+
+nav ul a{
+	color: gray;
+	text-decoration: none;
+	font-family: arial;
+	
+}
+
+.service-header-img {
+	margin: 100%;
+	width: 1024px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 33px;
+	
+}
+.services-info {
+	
+	padding-bottom: 33px;
+	border-bottom: 1px solid black;
+}
+
+
+.first-info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+	margin-bottom: 33px;
+}
+
+.first-info div {
+	max-width: 572px;
+	border: 1px solid black;
+	margin: 20px 0;
+	padding: 46px;
+	background: rgb(242, 245, 245);
+	}
+
+button {
+	padding: 10px 40px;
+	border: 1px solid black;
+	margin-top: 20px;
+	background: white;
+	border-radius: 5px;
+
+
+}
+h5 {
+	padding-bottom: 20px;
+}
+
+.bottom-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.bottom-text {
+	width: 519px;
+
+}
+
+.services-info-img {
+	margin-right: 135px;
+}
+
+
+.bullet-points {
+	list-style-type: square;
+	padding-left: 20px;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	margin: 43px 0 22px;
+} 
+
